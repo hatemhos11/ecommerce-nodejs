@@ -1,14 +1,16 @@
-<h1 align='center' >Database Diagram</h1>
-<p align="center">
-    <img src="./1- DIAGRAMS/SQL-DIAGRAM.png"/>
-</p>
+<h1 align='center' >INSTALLATION</h1>
 
-<h1 align='center' >User Diagram</h1>
-<p align="center">
-    <img src="./1- DIAGRAMS/USER Diagram.png"/>
-</p>
+Install packages by this command `npm install` OR `npm yarn`
 
-<h1 align='center' >Admin Diagram</h1>
-<p align="center">
-    <img src="./1- DIAGRAMS/ADMIN DIAGRAM.png"/>
-</p>
+
+<h1 align='center' >Environment</h1>
+<ul>
+    <li>PORT</li>
+    <li>NODE_ENV</li>
+    <li>DB_HOST</li>
+    <li>DB_DATABASE</li>
+    <li>DB_USER</li>
+    <li>DB_PASS</li>
+    <li>DB_TYPE</li>
+    <li>TOKEN_SECRET</li>
+</ul>
