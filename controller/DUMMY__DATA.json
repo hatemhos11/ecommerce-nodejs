@@ -1,0 +1,41 @@
+{
+    "Product": {
+        "id": 1,
+        "barcode": "12345",
+        "code": "p-000",
+        "name": "مروحة",
+        "desc": "مروحة سقف مش حلوه محدش يشتريها",
+        "quantity": 40,
+        "categoryId": 1,
+        "subCategoryId": 1,
+        "pur_price": 200,
+        "sell_price": 0,
+        "isStcSellPrice": true,
+        "profitType": true,
+        "profit": 20,
+        "discount": 0,
+        "isActive": true
+    },
+    "product_images":[
+        {
+            "productId": "product.id",
+            "image": "BLOB"
+        },
+        {
+            "productId": "product.id",
+            "image": "BLOB"
+        }
+    ],
+    "product_features": [
+                {
+                    "productId": "product.id",
+                    "key": "askldfjl",
+                    "name": "name"
+                },
+                {
+                    "productId": "product.id",
+                    "key": "bfbfbfb",
+                    "name": "data"
+                }
+            ]
+}

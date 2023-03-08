@@ -1,0 +1,42 @@
+{
+  "name": "client",
+  "version": "0.1.0",
+  "private": true,
+  "engines": {
+    "node": ">=17 <=18.14.1"
+  },
+  "scripts": {
+    "dev": "node ssr-server.js",
+    "dev:w": "nodemon ssr-server.js",
+    "dev:db": "npm run migrate:down && npm run migrate:up && npm run seed:up && npm run dev",
+    "migrate:up": "npx sequelize-cli db:migrate",
+    "migrate:down": "npx sequelize-cli db:migrate:undo:all",
+    "seed:up": "npx sequelize-cli db:seed:all",
+    "seed:down": "npx sequelize-cli db:seed:undo:all",
+    "format": "prettier --write \"./**/*.{js,jsx}\"",
+    "serv": "json-server --watch ./api/db.json --port 4000"
+  },
+  "dependencies": {
+    "axios": "^1.2.2",
+    "bcrypt": "^5.1.0",
+    "chalk": "^5.2.0",
+    "cors": "^2.8.5",
+    "dotenv": "^16.0.3",
+    "express": "^4.18.2",
+    "express-rate-limit": "^6.7.0",
+    "express-validator": "^6.14.3",
+    "helmet": "^6.0.1",
+    "json-server": "^0.17.1",
+    "jsonwebtoken": "^9.0.0",
+    "multer": "^1.4.5-lts.1",
+    "mysql2": "^2.3.3",
+    "sequelize": "^6.28.0"
+  },
+  "devDependencies": {
+    "eslint": "8.30.0",
+    "eslint-config-next": "13.1.1",
+    "nodemon": "^2.0.20",
+    "prettier": "^2.8.2",
+    "sequelize-cli": "^6.5.2"  
+  }
+}
