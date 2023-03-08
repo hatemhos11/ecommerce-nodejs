@@ -10,9 +10,9 @@ module.exports = {
         "logging": false
     },
     "test": {
-        "username": "root",
-        "database": "ecommerce_db",
-        "password": "erp-daftara111",
+        "username": "",
+        "database": "",
+        "password": "",
         "host": "127.0.0.1",
         "dialect": "mysql",
         "logging": false
